@@ -1,0 +1,415 @@
+html,body
+{
+  padding: 0; margin: 0;
+  background: url('logo fond noir.jpg') fixed;
+  background-size: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+
+
+
+
+
+
+.pres
+{
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.affiche
+{
+  background: url('54433507_1747726025329494_3471909699316613120_n.jpg');
+  background-repeat: no-repeat;
+  background-size: 185vh;
+  height: 500px;
+  width: 100%;
+  background-position: top;
+}
+
+.affiche2
+{
+  background: url('Capture d’écran 2020-08-27 à 10.40.26.png');
+  background-repeat: no-repeat;
+  background-size: 185vh;
+  height: 500px;
+  width: 100%;
+  background-position: top;
+
+}
+.affiche3
+{
+  background: url('Capture d’écran 2020-08-27 à 10.33.08.png');
+  background-repeat: no-repeat;
+  background-size: 185vh;
+  height: 500px;
+  width: 100%;
+  background-position: center;
+
+}
+
+
+
+.section1 
+{
+  margin-top: 50%;
+  height: 500px;
+  width: 100%;
+  background: black;
+  text-align: center;
+  line-height: 100px;
+  
+
+}
+
+
+.section2
+{
+  
+  height: 500px;
+  width: 100%;
+  background: black;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+  
+}
+
+
+
+.fa-arrow-down
+{
+  color: white;
+  margin-left: 50%;
+  margin-top: 5%;
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.fa-arrow-down:hover
+{
+  transform: translateY(50%)
+}
+
+
+.click
+{
+  height: 300px;
+  width: 100%;
+  background: black;
+  text-align: center;
+  float: left;
+  
+  
+  
+}
+
+.clickcont
+{
+  line-height: 20px;
+  padding-top: 100px;
+}
+
+.fa-play
+{
+  color: #ffffff;
+}
+.toclick
+{
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.video
+{
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.histoire
+{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.bio
+{
+  height: 500px;
+  width: 100%;
+  border: 1px solid white;
+  background: #ffffff;
+  line-height: 100px;
+  text-align: center;
+  float: left;
+
+
+}
+
+
+
+
+.bioinner
+{
+  width: 80%;
+  margin: auto;
+}
+
+p
+{
+  line-height: 30px;
+}
+
+.textpic
+{
+  float: left;
+  width: 400px;
+  height: 500px;
+  display: flex;
+}
+
+.fluid
+{
+  
+}
+
+.slide
+{
+  cursor: pointer;
+}
+
+.slider-frame {
+  background-color: black;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+ 
+  
+}
+
+.slider-frame .btn {
+  width: 40px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+}
+
+.slider-frame .btn.prev {
+  left: 0px;
+}
+
+.slider-frame .btn.next {
+  right: 0px;
+}
+
+.slider-frame .slider-container {
+  transition: margin-left .2s ease, left .5s ease;
+  position: absolute;
+  left: 0;
+}
+
+.slider-frame .slider-container .slide {
+  
+  float: left;
+  position: relative;
+  top: 0;
+  transition: width .2s ease, height .2s ease, top .2s ease;
+}
+
+.slider-frame .slider-container .slide:nth-child(even) {
+  
+}
+hr{
+	width:100px;
+}
+
+.prev .fa{
+  margin-top: 124px;
+    
+    padding-left: 7px;
+}
+
+.next .fa{
+     margin-top: 124px;
+    padding-left: 12px;
+}
+.btn{
+  cursor:pointer;
+} 
+
+.formul
+{
+  background: grey;
+}
+
+.contact
+{
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+/* video */
+
+#video_player {
+	display: table;
+	line-height: 0;
+	font-size: 0;
+	background: black;
+}
+#video_player video,
+	#video_player figcaption {
+		display: table-cell;
+		vertical-align: top;
+}
+#video_player figcaption {
+	width: 25%;
+}
+#video_player figcaption a {
+	display: block;
+	opacity: .5;
+	transition: 1s opacity;
+}
+#video_player figcaption a img,
+	figure video {
+		width: 50%;
+		height: 50%;
+}
+#video_player figcaption a:hover {
+	opacity: 1;
+}
+
+
+@media (max-width: 700px) {
+	#video_player video,
+		#video_player figcaption {
+			display: table-row;
+		}
+#video_player figcaption a {
+	display: inline-block;
+	width: 33.33%;
+}
+}
+
+@media only screen and (max-width: 880px)
+{
+    .bio
+    {
+      text-align: center;
+      height: 600px;
+      
+    }
+
+    .textpic
+    {
+      display: none;
+    }
+
+    #video_player
+    {
+      width: 160vw;
+      text-align: center;
+
+      
+    }
+
+    .formul
+    {
+      display: none;
+    }
+
+    .bio
+    {
+      padding-top: 20%;
+      height: 700px;
+    }
+
+    
+
+
+}
